@@ -124,6 +124,7 @@
 									alt="">${devUserSession.devCode } <span
 									class=" fa fa-angle-down"></span> </a>
 								<ul class="dropdown-menu dropdown-usermenu pull-right">
+								<!-- 退出当前的页面 -->
 									<li><a
 										href="${pageContext.request.contextPath }/dev/logout"><i
 											class="fa fa-sign-out pull-right"></i> Log Out</a>
